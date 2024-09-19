@@ -1,0 +1,337 @@
+
+* {
+    transition: 0.2s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    background-color: rgb(28, 31, 37);
+}
+
+
+
+
+
+div#banner {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 160px;
+    background-color:rgb(23, 26, 32);
+    
+}
+
+div#image {
+    position: relative;
+    z-index: 1;
+
+    width: 100px;
+    height: 100px;
+
+    top: 100px;
+    border-radius: 50%;
+    top: 110px;
+
+    background-color: rgb(21, 23, 27);
+
+}
+
+div#banner > img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+div#image > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+h2 {
+    color: white;
+    position: relative;
+    top: 105px;
+}
+
+h3.label {
+    text-align: left;
+    color: white;
+}
+
+h3.r-label {
+    text-align: right;
+    position: relative;
+    top: -40px;
+    color: grey;
+    font-weight: 500
+}
+
+h4 {
+    z-index: 1;
+    color: rgb(206, 206, 206);
+    position: relative;
+    top: 90px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+a#blue {
+    color: rgb(255, 176, 6);
+}
+
+img#verify {
+    position: relative;
+    height: 100%;
+    width: 24px;
+    top: 4px;
+}
+
+div#connect {
+    width: 90%;
+    left: 5%;
+    height: 40px;
+
+    position: absolute;
+    top: 288px;
+}
+
+button {
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Inter';
+    font-size: 12px;
+    
+}
+
+div#content {
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+
+    position: relative;
+    top: 140px
+}
+
+div#photos {
+    position: relative;
+    height: 270px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div#videos {
+    position: relative;
+    height: 405px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+div.photo {
+    width: 48%;
+    height: 130px;
+    background-color: rgb(21, 23, 27);
+    margin-left: 1.3%;
+    border-radius: 5px;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color:rgb(21, 23, 27);
+    z-index: 2;
+
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+    box-shadow: 0px 0px 20px rgb(21, 23, 27);
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    top: 160px;
+    height: 200px;
+    width: 100%;
+}
+
+div#user-header {
+    position: fixed;
+    z-index: 3;
+    
+    height: 55px;
+    border-radius: 10px;
+    width: 90%;
+    left: 5%;
+    top: -100px;
+    background-color: rgb(21, 23, 27);
+    transition: 0.5s;
+}
+
+div#user-header > h5 {
+    font-size: 14px;
+    margin-top: 24px;
+    color: rgb(163, 163, 163);
+    font-weight: 400;
+    text-align: center;
+}
+
+div#filter {
+    width: 100%;
+    height: 30px;
+
+    flex-wrap: flex;
+    display: flex;
+
+    text-align: center;
+    left: 5%;
+    right: 5%;
+}
+
+div#filter > div {
+    text-align: center;
+    position: relative;
+    top: 0px;
+    padding: 8px 14px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 10px;
+    height: 14px;
+    margin-left: 0.6%;
+    color: white;
+    font-size: 12px;
+    margin-left: 4px;
+    background: linear-gradient(45deg, rgb(255, 176, 6), rgb(243, 156, 41));
+    border-bottom: 3px solid rgb(209, 134, 36); 
+}
+
+button#sub {
+    border-bottom: 3px solid rgb(209, 134, 36); 
+    background-color: rgb(255, 176, 6); 
+    color: white;
+
+    background: linear-gradient(45deg, rgb(255, 176, 6), rgb(243, 156, 41));
+}
+
+button#message {
+    border-bottom: 3px solid rgb(214, 214, 214);
+
+    background: linear-gradient(45deg, white, rgb(214, 214, 214));
+}
+
+
+body > div#subBanner {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: -60%;
+    right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 30;
+    
+    filter: blur(0px);
+    transition: 0.8s;
+
+    background-color:rgb(21, 23, 27);
+}
+
+div#chatBanner {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: -60%;
+    right: 5%;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 30;
+    
+    filter: blur(0px);
+    transition: 0.8s;
+
+    background-color:rgb(21, 23, 27);
+}
+
+img#star {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+    width: 10%;
+    height: same-as-width;
+}
+
+
+div#subBanner > button {
+    position: absolute;
+    width: 90%;
+    height: 40px;
+    left: 5%;
+    bottom: 20px;
+    border-bottom: 3px solid rgb(209, 134, 36); 
+    background-color: rgb(255, 176, 6); 
+    color: white;
+}
+
+div#subBanner > center > a { /* maybe later */ 
+    text-align: center;
+    color: rgb(136, 136, 136); 
+
+    position: relative;
+    top: 330px;
+
+    font-size: 12px;
+    font-weight: 400;
+}
+
+div#subBanner > h1 {
+    background: linear-gradient(65deg, rgb(255, 185, 33), rgb(255, 178, 11));
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: 86px;
+    top: -3px;
+}
+
+div#subBanner > h4 {
+    background: linear-gradient(65deg, rgb(255, 185, 33), rgb(255, 178, 11));background: linear-gradient(65deg, rgb(255, 185, 33), rgb(255, 178, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+    font-weight: 700;
+}
+
+div#subBanner > p {
+    position: absolute;
+    top: 84px;
+    left: 30px;
+    font-size: 12px;
+    
+    color:rgb(230, 230, 230);
+}
+
+div#subBanner > p#two {
+    top: 100px;
+}
+
+div#subBanner > p#third {
+    top: 116px;
+}
+div#subBanner > p#fr {
+    top: 132px;
+}
